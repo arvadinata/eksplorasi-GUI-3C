@@ -15,22 +15,22 @@ Program GUI sederhana menggunakan Java Swing. Pengguna mengetik nama, lalu menek
 
 ## Screenshot Hasil Program
 
-### 1. Tampilan setelah nama diketik
+### 1. Setelah tombol Reset diklik
 Pengguna mengisi nama pada `JTextField`.
 
 ![Isi nama](screenshot1.png)
 
-### 2. Kursor berada di atas tombol Sapa
+### 2. Tampilan setelah nama diketik
 Event `mouseEntered()` (dari `MouseAdapter`) mengubah teks judul menjadi "Klik tombol Sapa!".
 
 ![Hover tombol Sapa](screenshot2.png)
 
-### 3. Setelah tombol Sapa diklik
+### 3. Kursor berada di atas tombol Sapa
 Event `actionPerformed()` (dari `ActionListener`) menampilkan pesan sapaan pada label hasil.
 
 ![Hasil sapaan](screenshot3.png)
 
-### 4. Setelah tombol Reset diklik
+### 4. Setelah tombol Sapa diklik
 Isian nama dan pesan hasil dikosongkan kembali.
 
 ![Setelah reset](screenshot4.png)
